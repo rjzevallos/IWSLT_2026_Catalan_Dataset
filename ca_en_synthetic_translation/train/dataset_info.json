@@ -1,0 +1,92 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "catalan_commonvoice_first15hr",
+  "dataset_size": 407166852,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/shields/catalan_commonvoice_first15hr@4f91c7f84406b33fbf510d2b5b36bcbe209fc0d6/data/train-00000-of-00001-cac56af73fa23ded.parquet": {
+      "num_bytes": 273436862,
+      "checksum": null
+    },
+    "hf://datasets/shields/catalan_commonvoice_first15hr@4f91c7f84406b33fbf510d2b5b36bcbe209fc0d6/data/val-00000-of-00001-b0ad669f9c6aaad2.parquet": {
+      "num_bytes": 112830973,
+      "checksum": null
+    }
+  },
+  "download_size": 386267835,
+  "features": {
+    "client_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "path": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "audio": {
+      "sampling_rate": 48000,
+      "_type": "Audio"
+    },
+    "sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "up_votes": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "down_votes": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "age": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gender": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "accent": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "locale": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "segment": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence_en": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 793434687,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 288086740,
+      "num_examples": 7000,
+      "dataset_name": "catalan_commonvoice_first15hr"
+    },
+    "val": {
+      "name": "val",
+      "num_bytes": 119080112,
+      "num_examples": 3000,
+      "dataset_name": "catalan_commonvoice_first15hr"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
