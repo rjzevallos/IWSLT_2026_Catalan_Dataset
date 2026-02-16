@@ -22,7 +22,7 @@ dataset = load_dataset("arrow", data_files=data_files)
 ## Authors
 
 * Rodolfo Zevallos (Barcelona Supercomputing Center)
-* Marc Casals i Salvador (Barcelona Supercomputing Center)
+* Marc Casals i Salvador (Universitat Politècnica de Catalunya)
 * Guillermo Cámbara Ruiz (Universitat Pompeu Fabra)
 * John Ortega (Northeastern University)
 * Fabrício Carraro (Barcelona Supercomputing Center)
