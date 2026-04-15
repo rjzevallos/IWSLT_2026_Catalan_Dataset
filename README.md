@@ -26,6 +26,7 @@ dataset = load_dataset("arrow", data_files=data_files)
 * Guillermo Cámbara Ruiz (Universitat Pompeu Fabra)
 * John Ortega (Northeastern University)
 * Fabrício Carraro (Barcelona Supercomputing Center)
+* Pol Buitrago (Universitat Politècnica de Catalunya)
 
 ## Evaluation
 You can evaluate your model using two widely adopted translation metrics: BLEU and ChrF++.
